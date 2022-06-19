@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Assignment</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <h2 class="head-text">Folder upload</h2>
+    <p class="sub-head">Select folder</p>
+    <div id="selector">
+        <button style="display:block; width:100px; height:20px;" onclick="myInput()">choose folder</button>
+        <lable id="files">No file chosen</lable>
+
+        <input type="file" id="my-files" webkitdirectory="true" multiple style="display: none;">
+    </div>
+    <h2 class="sub-head">Selected Files</h2>
+    <h4 id="text">Please Choose a folder</h4>
+
+    <table id="table-item">
+        <tr>
+            <th>File Name</th>
+            <th>File Size</th>
+        </tr>
+        <tr id="listing">
+        </tr>
+    </table>
+
+    <script src="index.js"></script>
+</body>
+
+</html>

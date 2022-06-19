@@ -1,0 +1,44 @@
+*{
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+}
+
+.head-text{
+  padding: 15px 10px;
+}
+.sub-head{
+  padding: 0px 10px;
+}
+#selector{
+  padding: 5px 10px;
+  display: flex;
+}
+
+#files{
+  padding-left: 3px;
+}
+
+table {
+    font-family: arial, sans-serif;
+    border-collapse: collapse;
+    width: 80%;
+    margin: auto;
+  }
+  
+  td, th {
+    border: 1px solid #dddddd;
+    text-align: left;
+    padding: 8px;
+  }
+  
+  #text{
+    margin-bottom: 20px;
+    padding: 5px 10px;
+  }
+
+  #table-item{
+    display: none;
+    margin-top: 15px;
+  }
+  
